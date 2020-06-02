@@ -1,0 +1,45 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT ",
+    "version": "eosio::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "balance",
+            "base": "",
+            "fields": [
+                {
+                    "name": "funds",
+                    "type": "asset"
+                }
+            ]
+        },
+        {
+            "name": "party",
+            "base": "",
+            "fields": [
+                {
+                    "name": "hodler",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "party",
+            "type": "party",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "balance",
+            "type": "balance",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

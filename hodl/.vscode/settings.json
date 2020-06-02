@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.ipp": "cpp",
+        "atomic": "cpp",
+        "optional": "cpp",
+        "new": "cpp",
+        "streambuf": "cpp",
+        "functional": "cpp",
+        "typeinfo": "cpp"
+    }
+}
